@@ -1,7 +1,9 @@
 const express = require ("express");
 const router = express.Router();
 const db = require ("../config/db");
-//register
+
+
+//Register
 router.post("/register", (req, res)=>{
     const{username, password} = req.body;
     db.query(
@@ -13,6 +15,7 @@ router.post("/register", (req, res)=>{
         }
     );
 });
+
 //LOGIN
 router.post ("/login", (req,res)=>{
     const{username, password} = req.body;
