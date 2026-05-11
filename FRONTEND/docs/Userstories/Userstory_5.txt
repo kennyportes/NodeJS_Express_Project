@@ -1,0 +1,3 @@
+As a Developer, 
+I want to ensure that if a user skips the "Terms & Conditions" checkbox, the text turns red, so that 
+they are nudged to follow registration rules.

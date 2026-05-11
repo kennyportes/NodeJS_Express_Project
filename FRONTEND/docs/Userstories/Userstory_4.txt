@@ -1,0 +1,2 @@
+As a User, 
+I want to see my own username displayed on the dashboard, so that I know I am correctly authenticated.
